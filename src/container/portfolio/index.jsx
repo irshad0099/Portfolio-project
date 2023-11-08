@@ -1,32 +1,32 @@
 import React, { useState } from 'react'
 import { BsInfoCircleFill } from "react-icons/bs";
 import PageHeaderConten from "../../component/pageHeaderContent";
-import Currancy_Converter from './images/Currancy_Converter.jpg';
-import Hotel_Booking from './images/Hotel_Booking.jpg';
-import Kfc_Billing from './images/Kfc_Billing.jpg';
+import Converter__Currancy from './images/Converter__Currancy.jpg';
+import Booking__Hotel from './images/Booking__Hotel.jpg';
+import Kfc from './images/kfc.jpeg';
 import Todo_App from './images/Todo_App.jpg';
-import weather_Image from './images/weather_Image.jpg';
-import image6 from './images/image6.jpg';
+import App__Wether from './images/App__Wether.jpg';
+import React__code1 from './images/React__code1.jpg';
 import './style.scss';
 
 const portfolioData = [
   {
     id: 2,
     name: "Currancy_Converter",
-    image: Currancy_Converter,
+    image: Converter__Currancy,
     link : ''
   },
   {
     id: 3,
     name: "Hotel-Booking",
     link : '',
-    image: Hotel_Booking
+    image: Booking__Hotel
   },
   {
     id: 2,
     name: "Kfc_Billing",
     link : '',
-    image: Kfc_Billing
+    image: Kfc
   },
   {
     id: 2,
@@ -37,13 +37,13 @@ const portfolioData = [
   {
     id: 3,
     name: "Weather_App",
-    image: weather_Image,
+    image: App__Wether ,
     link: '',
   },
   {
     id: 3,
     name: "Developer",
-    image: image6,
+    image: React__code1,
     link: '',
   },
 
