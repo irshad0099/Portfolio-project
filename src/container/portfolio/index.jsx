@@ -6,7 +6,7 @@ import Booking__Hotel from './images/Booking__Hotel.jpg';
 import Kfc from './images/kfc.jpeg';
 import Todo_App from './images/Todo_App.jpg';
 import App__Wether from './images/App__Wether.jpg';
-import React__code1 from './images/React__code1.jpg';
+import React__code2 from './images/React__code2.jpg';
 import './style.scss';
 
 const portfolioData = [
@@ -43,7 +43,7 @@ const portfolioData = [
   {
     id: 3,
     name: "Developer",
-    image: React__code1,
+    image: React__code2,
     link: '',
   },
 
